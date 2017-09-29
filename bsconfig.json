@@ -5,11 +5,15 @@
 {
   "name" : "reason-react-example",
   "reason" : { "react-jsx" : true},
-  "bs-dependencies": ["reason-react", "bs-director"],
+  "bs-dependencies": [
+    "reason-react",
+    "bs-director",
+    "bs-containers"
+  ],
   "sources": [
     {
       "dir": "src",
-      "subdirs": ["interop", "logo", "simple", "todomvc"],
+      "subdirs": ["simple"],
     }
   ],
 }
